@@ -1,0 +1,12 @@
+<h1>Hi {{user.display_name}}!</h1>
+<div class="media">
+  <div class="pull-left">
+    <img class="media-object" width="150" ng-src="{{user.images[0].url}}" />
+  </div>
+  <h2>Fork one of these playlists:</h2>
+  <div class="pull-left" class="list-group">
+    <a href="/follow/{{playlist.id}}" class="list-group-item" ng-repeat="playlist in playlists">
+      {{playlist.name}}
+    </a>
+  </div>
+</div>

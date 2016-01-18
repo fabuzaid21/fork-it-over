@@ -1,0 +1,10 @@
+{
+  "author": "Firas Abuzaid",
+  "name": "fork-it-over",
+  "description": "A simple app that lets you fork (i.e. copy and modify) Spotify playlists that you follow and make them your own.",
+  "version": "0.0.1",
+  "main": "fork-it-over.js",
+  "dependencies": {
+    "express": "~4.0.0"
+  }
+}
